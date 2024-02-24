@@ -47,13 +47,13 @@ nav a:hover {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
-    transition: background-color 0.3s ease; /* Анимация при наведении */
+    transition: transform 0.3s ease; /* Анимация при наведении */
 }
 
 .download-button:hover {
-    background-color: #45a049; /* Цвет фона при наведении */
+    transform: scale(1.1); /* Увеличение размера при наведении */
 }
 
 .download-button:active {
-    background-color: #3e8e41; /* Цвет фона при нажатии */
+    transform: scale(0.9); /* Уменьшение размера при нажатии */
 }
