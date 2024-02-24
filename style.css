@@ -72,3 +72,18 @@ nav a:hover {
 .download-button:hover {
     cursor:url('img/cursor.png'),pointer; /* Изменение курсора при наведении на кнопку */
 }
+/* style.css */
+
+/* Остальные стили оставьте без изменений */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+h2 {
+    margin-top: 20px; /* Дополнительный отступ сверху */
+}
