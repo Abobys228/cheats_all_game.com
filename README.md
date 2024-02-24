@@ -1,2 +1,2 @@
-# cheats_all_game.github.io
+# cheats_all_game.com
 Cheats all games
