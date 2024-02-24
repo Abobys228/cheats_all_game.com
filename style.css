@@ -2,12 +2,11 @@
 
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #000; /* Черный фон */
-    color: #fff; /* Цвет текста */
+    background-image: url('img/background.jpg');
+    background-size: cover; /* Растягивает изображение на весь экран */
+    background-repeat: no-repeat; /* Запрет повторения фона */
 }
+
 
 header {
     background-color: #333;
