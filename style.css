@@ -59,6 +59,13 @@ nav a:hover {
     transform: scale(0.9); /* Уменьшение размера при нажатии */
 }
 
-{
-	cursor:url('cursor.png'),pointer;
+*{
+	cursor:url('img/cursor.png'),pointer;
+}
+/* style.css */
+
+/* Остальные стили оставьте без изменений */
+
+.download-button:hover {
+    cursor:url('img/cursor.png'),pointer; /* Изменение курсора при наведении на кнопку */
 }
