@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     color: #00008b; /* Цвет текста */
-    background-image:url('img/background.jpg');
+    background-image: url('img/background.jpg');
     background-size: cover; /* Растягивает изображение на весь экран */
     background-repeat: no-repeat; /* Запрет повторения фона */
 }
@@ -61,6 +61,13 @@ nav a:hover {
 .download-button:active {
     transform: scale(0.9); /* Уменьшение размера при нажатии */
 }
+
+*{
+	cursor:url('img/cursor.png'),pointer;
+}
+/* style.css */
+
+/* Остальные стили оставьте без изменений */
 
 .download-button:hover {
     cursor:url('img/cursor.png'),pointer; /* Изменение курсора при наведении на кнопку */
